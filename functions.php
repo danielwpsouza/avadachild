@@ -13,11 +13,12 @@ add_action( 'after_setup_theme', 'avada_lang_setup' );
 
 
 /**
+ * @version 1.0.0
   * Bloqueio de renderização
   * @param [type] $url
   * @return void
   * @author Daniel Souza <daniel.souza@diletec.com.br>
-  * @example https://wordpress.org/support/topic/defer-parsing-of-js-2/ WP Doc
+  * @example WP Doc: https://wordpress.org/support/topic/defer-parsing-of-js-2/
   */
 function defer_parsing_of_js ( $url ) {
 	/**Se não for js retorna a url*/
